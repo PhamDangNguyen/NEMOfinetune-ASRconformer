@@ -4,6 +4,7 @@ Chạy file ```prepare_data.sh``` cùng với tham số đã được chỉnh tr
 - tokenizer.model
 - tokenizer.vocab
 - vocab.txt
+- Thực chất tokenizer sẽ lất hết tất cả những gì nó đọc được trong file json => vậy nên ta cần tạo hẳn một file json chứa toàn text trên từng dòng để đưa vào model.
 ## Tạo định dạng metadata để train
 - Ví dụ: metadata sau tiền xử lý bộ bud500 đang có dạng
 ```
